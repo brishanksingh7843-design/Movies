@@ -1,0 +1,824 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Stream Hub" />
+    <meta name="description" content="Watch Paid movies for free!" />
+    <meta name="theme-color" content="black" />
+    <meta property="og:title" content="Brishank's Stream" />
+    <meta
+      property="og:image"
+      content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9wnciWFVjYrS7wO3-4MAeyHv9e44sDf06t4QP_mFxu41RwT8GlAuIjzs&s=10"
+    />
+    <meta property="og:description" content="Streaming top movies!" />
+    <link rel="icon" type="image/png" href="" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>StreamHub</title>
+  </head>
+  <body>
+    <div class="main-display">
+      <div class="scrollpage">
+        <div class="Name-page"><span>STREAM </span> HUB</div>
+        <div class="scrollreel">
+          <!-- <video src="" controls// this is to add controls
+          and controlslist='nodownload'// to give play/pause but no download>
+          you can use poster='' to give thumbnail... just like src and all
+          playsinline is added so video dosen't take full screen on mobiles etc. -->
+
+          <div class="reels">
+            <div class="Name-reel">
+              <div class="reeln1">TRENDING NOW</div>
+              <div class="reeln2">Hajime No Ippo</div>
+              <div class="reeln3">
+                Follow the journey of Ippo Makunouchi, a shy high schooler who
+                discovers the world of professional boxing. A story about grit,
+                relentless hard work, and finding out what it truly means to be
+                div>.
+              </div>
+            </div>
+            <div class="videoshade"></div>
+            <div class="videoshade1"></div>
+            <video
+              class="video"
+              autoplay
+              muted
+              loop
+              playsinline
+              src="ippo-vid.mp4"
+            ></video>
+          </div>
+          <div class="reels">
+            <div class="Name-reel">
+              <div class="reeln1">TRENDING NOW</div>
+              <div class="reeln2">Vinland Saga</div>
+              <div class="reeln3">
+                The Cost of Revenge & The Search for Peace > Set in the ruthless
+                age of Vikings, a young warrior driven by vengeance learns the
+                hard truth about violence, redemption, and what it truly means
+                to be a real warrior.
+              </div>
+            </div>
+            <div class="videoshade"></div>
+            <div class="videoshade1"></div>
+            <video
+              class="video"
+              autoplay
+              loop
+              muted
+              playsinline
+              id="vinlandTheme"
+              src=""
+            ></video>
+          </div>
+
+          <div class="reels">
+            <div class="Name-reel">
+              <div class="reeln1">TRENDING NOW</div>
+              <div class="reeln2">Grave of the Fireflies</div>
+              <div class="reeln3">
+                The Human Cost of War > A heartbreaking tale of two siblings
+                struggling to survive in WWII Japan. A deeply moving exploration
+                of innocence, love, pride, and tragic loss amidst hardship.
+              </div>
+            </div>
+            <div class="videoshade"></div>
+            <div class="videoshade1"></div>
+            <video
+              class="video"
+              autoplay
+              loop
+              muted
+              playsinline
+              src="grave-vid.mp4"
+            ></video>
+          </div>
+          <div class="reels">
+            <div class="Name-reel">
+              <div class="reeln1">TRENDING NOW</div>
+              <div class="reeln2">Death Note</div>
+              <div class="reeln3">
+                The Human Cost of War > A heartbreaking tale of two siblings
+                struggling to survive in WWII Japan. A deeply moving exploration
+                of innocence, love, pride, and tragic loss amidst hardship.
+              </div>
+            </div>
+            <div class="videoshade"></div>
+            <div class="videoshade1"></div>
+            <video
+              class="video"
+              autoplay
+              loop
+              muted
+              playsinline
+              src="deathnote-vid.mp4"
+            ></video>
+          </div>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="content1">
+          <div class="content1-name">Trending</div>
+          <div class="content-card" tabindex="0" onclick="of()">
+            <img src="vinland-icon.jpg" class="icon" />
+            <div class="bottom">Vinland Saga</div>
+          </div>
+          <div class="content-card" tabindex="0" onclick="ofg()">
+            <img src="grave-icon.jpg" class="icon" />
+            <div class="bottom">Grave of the Fireflies</div>
+          </div>
+        </div>
+        <div class="content2">
+          <div class="content2-name">Explore Collection</div>
+          <a href="https://brishanksingh7843-design.github.io/Hajime">
+            <div class="content-card" tabindex="0">
+              <img src="hajime-icon.jpg" class="icon" />
+              <div class="bottom">Hajime no Ippo</div>
+            </div>
+          </a>
+          <div class="content-card" tabindex="0" onclick="of()">
+            <img src="vinland-icon.jpg" class="icon" />
+            <div class="bottom">Vinland Saga</div>
+          </div>
+          <div class="content-card" tabindex="0" onclick="ofd()">
+            <img src="death-icon.jpg" class="icon" />
+            <div class="bottom">Death Note</div>
+          </div>
+          <div class="content-card" tabindex="0" onclick="ofg()">
+            <img src="grave-icon.jpg" class="icon" />
+            <div class="bottom">Grave of the Fireflies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vinland">
+      <div class="back" onclick="contback()">--Go Back</div>
+      <div class="namam">
+        <p><span>STREAM </span> HUB</p>
+        Vinland Saga
+        <div>
+          The Cost of Revenge & The Search for Peace Set in the ruthless age of
+          Vikings, a young warrior driven by vengeance learns the hard truth
+          about violence, redemption, and what it truly means to be a real
+          warrior.
+        </div>
+      </div>
+      <div class="seasons">
+        <div class="s1" tabindex="0">Season 1</div>
+        <div class="s2" tabindex="0">Season 2</div>
+      </div>
+      <div class="content">
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1v2oMYoqqtZ0CLynMzfx2w6A1qv6DNx5U/preview"
+        >
+          <span>01</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1Xpkl8GhmnpOTRvIGxXmcF6f4CusyeOAf/preview"
+        >
+          <span>02</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1yz1YyCMLhkTKfDP_O0ndq52l5ZtFNmJN/preview"
+        >
+          <span>03</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1MpH7_ZDMcmXbphWsrv_zS64OOB8T1-sU/preview"
+        >
+          <span>04</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/118t9Bkjn0DSffJA2pCgbriD-HoxbuhPk/preview"
+        >
+          <span>05</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/171ZYLabJRWrEomHvLwLxyL3W8ewum3z0/preview"
+        >
+          <span>06</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1NOqj0fbqN6eAiJVHCzV2JoY-WKnKpcZN/preview"
+        >
+          <span>07</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div class="epis" tabindex="0" data-link="">
+          <span>08</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1ZLGomiG2OnxQXPQHsRuXBHMJxfzyYbq4/preview"
+        >
+          <span>09</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1A5XWd_Jh6-kLYeCZWtU2-OFxv7Uc9tZz/preview"
+        >
+          <span>10</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1F9rnUFUmnGHWTxc3AFbIgPqMx08gUd5p/preview"
+        >
+          <span>11</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1TsWUavemGTWlCvHCh0b1H_4ulhLM3wPl/preview"
+        >
+          <span>12</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1uQtYIPz-r9dAJ5oIEbIx3GGsp6JDjf4M/preview"
+        >
+          <span>13</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1ZcgIFAYpGWL9M4ylNtLKRcRVZbL2ttr2/preview"
+        >
+          <span>14</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/17ZcOwJeQ6-chZ1IkNWiSXKYr6ndqeNEJ/preview"
+        >
+          <span>15</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1ZDdEktWQYGsvovVSnFzihD7xkCSqfyAU/preview"
+        >
+          <span>16</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1pA6K7RTEXTOL-sAsvm85XcG0zdPToTrx/preview"
+        >
+          <span>17</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1wryQwSFPsgnEiD1pIOCOzMAPio74LdT6/preview"
+        >
+          <span>18</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1sjrmRCv_S2Q3znJj6b4KwJhiAmJ_F6tn/preview"
+        >
+          <span>19</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/19kzfAhNDC1zreCXs1HG15iHbS3L6FgAQ/preview"
+        >
+          <span>20</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1Nt7iEFNanRS9u0dAgPQWgdpKA64d6zwH/preview"
+        >
+          <span>21</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1h6HHnBRwoob2D4bG4tDwbeirceWVglVP/preview"
+        >
+          <span>22</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1REx6Ff_HqKL-BdhbiNslTLErvRX52ahT/preview"
+        >
+          <span>23</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1zbjdR085m8vqlYkotYqVs1tOKlQsW3gg/preview"
+        >
+          <span>24</span> Vinland Saga - S1<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1MT8LhlOf3guCc6LIpcP-CkQnIMmpA-ED/preview"
+        >
+          <span>01</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1inVj4jdeXzjRipRTXoei203ufrRRQGXk/preview"
+        >
+          <span>02</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1WR0L39xwFtI2wjbh7LXhFR1tzpqu6GFM/preview"
+        >
+          <span>03</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1Xeu6dSedGrJUhAU5OfFDnlgvzS-c29u7/preview"
+        >
+          <span>04</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1JqTHXKu95FOGpTdN1HHnKr8nc-VHv8pe/preview"
+        >
+          <span>05</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/13NT-C-HLhichW9F5HS78xeJGDjhJSCIY/preview"
+        >
+          <span>06</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1icflwVCxtztvl3rTcjZCq0IdTAwdR0cu/preview"
+        >
+          <span>07</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1v6kTVCc-xYNdk-9zuEcuFoTdUct8vHO5/preview"
+        >
+          <span>08</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1P3VcsNU9AgZvgMmEQ19Vz4iwWu-K684m/preview"
+        >
+          <span>09</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1MxZIleHSw-p48PJobsgrvPth_jUpesCX/preview"
+        >
+          <span>10</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/14fs7yXlGfw6HM1Vd3Ve5unlAH6O7D2bG/preview"
+        >
+          <span>11</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1OYsnbgoqdffIrMVvsEFzIe_p2G8-lAVw/preview"
+        >
+          <span>12</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1AnNoMaWZzrjYVP4eKbpe7iCNRZEttQBc/preview"
+        >
+          <span>13</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1KLi8eVjKgV8WrIXES_u0wFMwK5RRBP3P/preview"
+        >
+          <span>14</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1BtFf2dWAh7M6ZhYgS9BppATrCsyD8GsI/preview"
+        >
+          <span>15</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/11bz5tS12m5Y6zBtcR8klaIuT_EN5i27J/preview"
+        >
+          <span>16</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/15MHOZGgsG3nKvzBqTQ4mDRdoWnkpR8Dc/preview"
+        >
+          <span>17</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1InnjH0MYvaqauveMXwui9Q6HbS1R5Pp7/preview"
+        >
+          <span>18</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1hvWwQa00pk4TvI7EL2ETGN0yiH98CW1j/preview"
+        >
+          <span>19</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1hqTS_FU-deDfW6vR8Z4ad77BT45fLrH9/preview"
+        >
+          <span>20</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1copkJBQClj91I_FrYhf6RcK-o7_KZwoz/preview"
+        >
+          <span>21</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1UUEK0m309GenI69Pj39Dr3W7-obS_Chv/preview"
+        >
+          <span>22</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1r9O3edp9O3UArC-Wnx5dKCYmFN1tu6iD/preview"
+        >
+          <span>23</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+        <div
+          class="epis2"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1Wn9LcOL8daCHNktiPnWZDwYKTu1Ar9ov/preview"
+        >
+          <span>24</span> Vinland Saga - S2<button>Stream</button>
+        </div>
+      </div>
+    </div>
+    <div class="view-pg">
+      <div class="box-view">
+        <iframe
+          src=""
+          width="100%"
+          height="100%"
+          allow="autoplay"
+          allowfullscreen
+          id="ifram"
+          frameborder="0"
+        ></iframe>
+      </div>
+      <div class="moreover"><button class="b1">Exit Threater</button></div>
+    </div>
+
+    <div class="deathnote">
+      <div class="back" onclick="contback()">--Go Back</div>
+      <div class="namam">
+        <p><span>STREAM </span> HUB</p>
+        Death Note
+        <div>
+          The Human Cost of War > A heartbreaking tale of two siblings
+          struggling to survive in WWII Japan. A deeply moving exploration of
+          innocence, love, pride, and tragic loss amidst hardship.
+        </div>
+      </div>
+      <div class="dseasons">
+        <div class="s1" tabindex="0">Season 1</div>
+      </div>
+      <div class="content">
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1D8SxKQ8mWgCk2JAPpqL0bCb5aQCRTNSS/preview"
+        >
+          <span>01</span> Rebirth<button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1nEnONC2bSMZyOrydD5g3vmuWCN10cRG-/preview"
+        >
+          <span>02</span> Confrontation <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1P6L2VXwA3FSYYX0aHdI3vEHz-5FsxDaz/preview"
+        >
+          <span>03</span> Dealings <button>Stream</button>
+        </div>
+        <div class="epis" tabindex="0" data-link="">
+          <span>04</span> Pursuit <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1SvzjpyGEtfsShPQ-FXnyNyQxaTRdlMu_/preview"
+        >
+          <span>05</span> Tactics <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1H9jHwGtz_r12xAKDfwWXDoSXOOoNRSxM/preview"
+        >
+          <span>06</span> Unraveling <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1Jt1SEnrnV1MsXe7b8CHZqToXJ7Gn8adD/preview"
+        >
+          <span>07</span> Overcast <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/17ktquPSv-Jre36uAy5tcd7Zooar3f5Cf/preview"
+        >
+          <span>08</span> Glare <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1EMpTr9BtbtCULXlpIir9LsD9-0wOkbBe/preview"
+        >
+          <span>09</span> Encounter <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1InjpDmEmd_2HUctLmx5uviBcIJ5Z6CaB/preview"
+        >
+          <span>10</span> Doubt <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1F3OgS7o6XRiVG0orjlGnV9TRW_jwfdnQ/preview"
+        >
+          <span>11</span> Assault <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1pUNLswoJXai_DKJP-HAU7KT7GmekQXLf/preview"
+        >
+          <span>12</span> Love <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1_UQTE5FDZpezCakjLwLZjvaeQ28iQ5TB/preview"
+        >
+          <span>13</span> Confession <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1fhCeIaqlmUZJh2wt4VXXD0gzdlMdTAOS/preview"
+        >
+          <span>14</span> Friend <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1OjjzPS85eTTxmpQlEPuPp0cphiHWUZJR/preview"
+        >
+          <span>15</span> Wager <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1a_kXh8Pc4cSZQyhvnYE0chKYdDtCY-gT/preview"
+        >
+          <span>16</span> Decision <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1-PrDUEQBcgqGzd8C4iIpV2V3rZI2Cta8/preview"
+        >
+          <span>17</span> Execution <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1TioiXN-Xvph_dhQNCEFkiqpoyfCZY2p2/preview"
+        >
+          <span>18</span> Ally <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1GyMgmmveMQpv1-s1t72RvZzArUCG25-g/preview"
+        >
+          <span>19</span> Matsuda <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1EwAW7eKLQWbKZAiRJMUXRBnGora3EFlQ/preview"
+        >
+          <span>20</span> Makeshift <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1hx6dNT5Ry2c2CseBIdJpk-avNdhGnv5L/preview"
+        >
+          <span>21</span> Performance <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1k2QsHEeXxY7K7w4Kuw4cL-3bi0dJ3eog/preview"
+        >
+          <span>22</span> Guidance <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/11un78jPtFf-qXz_bhbUnxl-BO9LW-Pn6/preview"
+        >
+          <span>23</span> Frenzy <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/14UwyPZf9HoiCKowbTQHaP4GiqX0Kx9dD/preview"
+        >
+          <span>24</span> Revival <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1LctKowa6Ya2BqOngKwoc-Iz8B93zaJCD/preview"
+        >
+          <span>25</span> Silence <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1cvYqK-vT3Tdp1waPwdKUjKvviqQEJgM6/preview"
+        >
+          <span>26</span> Renewal <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/19rIwEhHslrto2JDO8PqaRGAj6v4A12xi/preview"
+        >
+          <span>27</span> Abduction <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1CuMdAkQlotYgtHHq6TeGTGs3PhZ4Tfmq/preview"
+        >
+          <span>28</span> Impatience <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1TEX-VE_djGLuqDeBzH_k6E32RdXqTUI2/preview"
+        >
+          <span>29</span> Father <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/14a3xWjSKh21TzPuCPRHnGDL8TvRugM8L/preview"
+        >
+          <span>30</span> Justice <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/18onaCbGh-JnSTizZTEMAoW_1PKX0TYTj/preview"
+        >
+          <span>31</span> Transfer <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1EnaL3gq-wuCUo_FgB1vu2Bzx-MGUQ7jZ/preview"
+        >
+          <span>32</span> Selection <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1Mkn82IelnLhOiTjMeJifHs_XgbEYloBY/preview"
+        >
+          <span>33</span> Scorn <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1vkXLRioUqXZ24c65oeHWq9N1XpPDAox-/preview"
+        >
+          <span>34</span> Vigilance <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1bVn-p-tGuWlnT4OV8SHEePR2pL2pUb4o/preview"
+        >
+          <span>35</span> Malice <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1LAR04utfjwrnwltK0pZTyM_92Y5TLHI4/preview"
+        >
+          <span>36</span> 1.28 <button>Stream</button>
+        </div>
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1hVkxwSzmevfEFXmlspWDc5nmyQj4WIG1/preview"
+        >
+          <span>37</span> New World <button>Stream</button>
+        </div>
+      </div>
+    </div>
+    <div class="graveof">
+      <div class="back" onclick="contback()">--Go Back</div>
+      <div class="namam">
+        <p><span>STREAM </span> HUB</p>
+        Death Note
+        <div>
+          The Human Cost of War > A heartbreaking tale of two siblings
+          struggling to survive in WWII Japan. A deeply moving exploration of
+          innocence, love, pride, and tragic loss amidst hardship.
+        </div>
+      </div>
+      <div class="gseasons">
+        <div class="s1" tabindex="0">Season 1</div>
+      </div>
+      <div class="content">
+        <div
+          class="epis"
+          tabindex="0"
+          data-link="https://drive.google.com/file/d/1M9N0EjS6Kei4dPZb4LpINGfSdYkJWqSQ/preview"
+        >
+          <span>01</span> The Grave of The Fireflies<button>Stream</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
