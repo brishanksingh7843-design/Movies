@@ -73,7 +73,7 @@ function seasonsss() {
       document.querySelector(".view-pg").style.display = "block";
       document.querySelector(".vinland").style.display = "none";
       document.querySelector(".deathnote").style.display = "none";
-      // document.querySelector(".graveof").style.display = "none";
+      document.querySelector(".graveof").style.display = "none";
       document.getElementById("ifram").src = vidsrc;
       console.log("done");
     });
