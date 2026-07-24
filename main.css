@@ -118,6 +118,7 @@ a {
   z-index: 1;
   margin: 0;
   padding: 2.5vw;
+  padding-top:1.5vw;
   font-weight: bold;
   text-shadow: 0 0 1.5vw rgb(255, 255, 255);
   letter-spacing: 0.15vw;
