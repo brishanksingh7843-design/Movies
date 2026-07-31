@@ -42,12 +42,17 @@ function ofg() {
   document.querySelector(".graveof").style.display = "block";
   document.querySelector(".main-display").style.display = "none";
 }
+function ofb() {
+  document.querySelector(".brandnew").style.display = "block";
+  document.querySelector(".main-display").style.display = "none";
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////
 function contback() {
   document.querySelector(".main-display").style.display = "block";
   document.querySelector(".vinland").style.display = "none";
   document.querySelector(".graveof").style.display = "none";
   document.querySelector(".deathnote").style.display = "none";
+  document.querySelector(".brandnew").style.display = "none";
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 let earlier = "";
@@ -74,6 +79,7 @@ function seasonsss() {
       document.querySelector(".vinland").style.display = "none";
       document.querySelector(".deathnote").style.display = "none";
       document.querySelector(".graveof").style.display = "none";
+      document.querySelector(".brandnew").style.display = "none";
       document.getElementById("ifram").src = vidsrc;
       console.log("done");
     });
@@ -112,21 +118,9 @@ b1.addEventListener("click", () => {
     document.querySelector(".deathnote").style.display = "block";
   } else if (earlier == "graveof") {
     document.querySelector(".graveof").style.display = "block";
+  } else if (earlier == "brandnew") {
+    document.querySelector(".brandnew").style.display = "block";
   }
   document.querySelector(".view-pg").style.display = "none";
   document.getElementById("ifram").src = "";
 });
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// b2.addEventListener("click", () => {
-//   openFullScreen(document.getElementById("ifram"));
-// });
-// function openFullScreen(elem) {
-//   if (elem.requestFullscreen) {
-//     elem.requestFullscreen();
-//   } else if (elem.webkitRequestFullscreen) {
-//     elem.webkitRequestFullscreen();
-//   } else if (elem.msRequestFullscreen) {
-//     elem.msRequestFullscreen();
-//   }
-//   console.log("entered here");
-// }
