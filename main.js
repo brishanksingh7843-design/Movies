@@ -46,6 +46,18 @@ function ofb() {
   document.querySelector(".brandnew").style.display = "block";
   document.querySelector(".main-display").style.display = "none";
 }
+function ofh() {
+  document.querySelector(".homecome").style.display = "block";
+  document.querySelector(".main-display").style.display = "none";
+}
+function ofn() {
+  document.querySelector(".noway").style.display = "block";
+  document.querySelector(".main-display").style.display = "none";
+}
+function ofdm() {
+  document.querySelector(".dhmal").style.display = "block";
+  document.querySelector(".main-display").style.display = "none";
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////
 function contback() {
   document.querySelector(".main-display").style.display = "block";
@@ -53,6 +65,9 @@ function contback() {
   document.querySelector(".graveof").style.display = "none";
   document.querySelector(".deathnote").style.display = "none";
   document.querySelector(".brandnew").style.display = "none";
+  document.querySelector(".homecome").style.display = "none";
+  document.querySelector(".noway").style.display = "none";
+  document.querySelector(".dhmal").style.display = "none";
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 let earlier = "";
@@ -80,6 +95,9 @@ function seasonsss() {
       document.querySelector(".deathnote").style.display = "none";
       document.querySelector(".graveof").style.display = "none";
       document.querySelector(".brandnew").style.display = "none";
+      document.querySelector(".homecome").style.display = "none";
+      document.querySelector(".noway").style.display = "none";
+      document.querySelector(".dhmal").style.display = "none";
       document.getElementById("ifram").src = vidsrc;
       console.log("done");
     });
@@ -120,7 +138,27 @@ b1.addEventListener("click", () => {
     document.querySelector(".graveof").style.display = "block";
   } else if (earlier == "brandnew") {
     document.querySelector(".brandnew").style.display = "block";
+  } else if (earlier == "homecome") {
+    document.querySelector(".homecome").style.display = "block";
+  } else if (earlier == "noway") {
+    document.querySelector(".noway").style.display = "block";
+  } else if (earlier == "dhmal") {
+    document.querySelector(".dhmal").style.display = "block";
   }
-  document.querySelector(".view-pg").style.display = "none";
   document.getElementById("ifram").src = "";
+  document.querySelector(".view-pg").style.display = "none";
 });
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// b2.addEventListener("click", () => {
+//   openFullScreen(document.getElementById("ifram"));
+// });
+// function openFullScreen(elem) {
+//   if (elem.requestFullscreen) {
+//     elem.requestFullscreen();
+//   } else if (elem.webkitRequestFullscreen) {
+//     elem.webkitRequestFullscreen();
+//   } else if (elem.msRequestFullscreen) {
+//     elem.msRequestFullscreen();
+//   }
+//   console.log("entered here");
+// }
