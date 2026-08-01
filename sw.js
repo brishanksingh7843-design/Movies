@@ -9,6 +9,10 @@ const ftc = [
   "./hajime-icon.jpg",
   "./grave-icon.jpg",
   "./death-icon.jpg",
+  "./brand-icon.jpg",
+  "./dhmal-icon.jpg",
+  "./homecome-icon.jpg",
+  "./noway-icon.jpg",
 ];
 self.addEventListener("install", (event) => {
   event.waitUntil(
